@@ -4,7 +4,7 @@
 
 .banner_image {
 	max-width: 100vw;
-	max-height: 70vh;
+	max-height: 90vh;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
@@ -18,18 +18,18 @@
 .banner_text {
 	display: flex;
 	position: absolute;
-	font-family: Garamond, serif;
+	font-family: 'Poiret One', cursive;
 	color: white;
 	right: 7%;
 }
 .banner_image h1 {
 	font-size: 60px;
-	top: 30%;
-	right: 8%;
+	top: 40vh;
+	right: 8vw;
 }
 .banner_image h3 {
 	font-size: 27px;
-	top: 40%;
+	top: 50vh;
 }
 /* .spotLight {
 	font-weight: 900;
