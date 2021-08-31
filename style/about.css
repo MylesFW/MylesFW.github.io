@@ -8,9 +8,9 @@
 .prof_photo {
 	margin-right: 30px;
 	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-	margin-top: 90px;
+	height: 300px;
+	width: 300px;
+	margin-top: 30px;
 	color: rgba(255, 255, 255, 1);
 	box-shadow: 0 5px 15px black;
 }
@@ -32,7 +32,6 @@
 	height: auto;
 	background-color: rgb(224, 207, 177);
 	border-radius: 50%;
-	border: red;
 }
 .about_links_a:hover {
 	background-color: rgb(255, 239, 212);
@@ -47,9 +46,8 @@
 }
 .about_bio {
 	margin-left: 7%;
-	border: 1px dotted red;
 }
-h5 {
+h4 {
 	font-size: 200%;
 	font-family: 'Poiret One', cursive;
 }
