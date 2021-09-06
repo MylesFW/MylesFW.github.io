@@ -1,0 +1,68 @@
+#footer {
+	padding-top: 5vh;
+	padding-bottom: 2vh;
+	border-top: 2px solid gray;
+	border-bottom: 10px solid gray;
+	font-family: 'Poiret One', cursive;
+}
+
+#footer p,
+small {
+	font-size: 0.6rem;
+	font-family: 'Poiret One', cursive;
+}
+
+@media (min-width: 544px) {
+	#footer p,
+	small {
+		font-size: 0.7rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+@media (min-width: 768px) {
+	#footer p,
+	small {
+		font-size: 0.9rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+@media (min-width: 992px) {
+	#footer p,
+	small {
+		font-size: 1rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+
+#footer svg {
+	max-width: 4vw;
+	max-height: 4vh;
+	height: auto;
+}
+
+#footer .row a svg:hover {
+	fill: rgb(224, 207, 177);
+}
+
+.boat {
+	width: 10%;
+	max-width: 100px;
+	height: auto;
+	animation: float 4s ease-in-out infinite;
+	transform: translatey(0px);
+}
+img .boat:hover p#boat-text {
+	color: rgb(224, 207, 177);
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px) rotate(2deg);
+	}
+	50% {
+		transform: translatey(-10px) rotate(10deg);
+	}
+	100% {
+		transform: translatey(0px) rotate(2deg);
+	}
+}

@@ -1,27 +1,30 @@
-* {
-	margin: 0px;
-}
-header {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	position: absolute;
+.navbar {
+	z-index: 5;
 	width: 100vw;
-	height: 60px;
-	background-color: rgba(0, 0, 0, 0.486);
+	background-color: rgba(0, 0, 0, 0.849);
 	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
-.nav-item {
+.navbar-nav > a {
+	line-height: 30px;
+	height: 28px;
+	padding-top: 0px;
+}
+.nav-link {
 	margin: 7px 50px 3px 50px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	color: white;
-	height: 38px;
 }
-.nav-item:hover {
-	color: rgb(224, 207, 177);
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+.collapse.show {
+	display: flex;
+	color: white;
 }
 
 .hvr-underline-from-left {

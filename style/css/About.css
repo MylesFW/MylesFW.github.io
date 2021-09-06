@@ -1,0 +1,101 @@
+#About_Section {
+	padding-top: 10vh;
+	height: 100vh;
+}
+.about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 15vw;
+	padding-right: 15vw;
+}
+.prof_photo {
+	border-radius: 50%;
+	max-width: 40%;
+	max-height: 30vh;
+	box-shadow: 0 5px 15px black;
+	height: auto;
+}
+
+.about_links {
+	padding-right: 2vw;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	height: auto;
+}
+.about_links_a {
+	margin-top: 10%;
+	margin-bottom: 15%;
+	height: auto;
+	background-color: rgb(224, 207, 177);
+	border-radius: 50%;
+}
+.about_links_a:hover {
+	background-color: rgb(255, 239, 212);
+	color: rgba(255, 255, 255, 1);
+	animation: bob 1s ease-in-out infinite;
+	transform: translatey(0px);
+}
+.about_links_P {
+	padding-top: 5vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about_bio {
+	border-left: 2px solid rgb(224, 207, 177);
+	padding-left: 2vw;
+}
+
+h4 {
+	font-size: 1rem;
+	font-family: 'Poiret One', cursive;
+}
+
+@media (min-width: 544px) {
+	h4 {
+		font-size: 1.2rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+@media (min-width: 768px) {
+	h4 {
+		font-size: 1.6rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+@media (min-width: 1000px) {
+	h4 {
+		font-size: 1.8rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+@media (min-width: 1200px) {
+	h4 {
+		font-size: 2rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+@media (min-width: 1400px) {
+	h4 {
+		font-size: 2.2rem;
+		font-family: 'Poiret One', cursive;
+	}
+}
+@keyframes bob {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-5px);
+		box-shadow: 0 12px 18px -6px rgba(32, 32, 32, 0.7);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}

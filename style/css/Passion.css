@@ -1,0 +1,44 @@
+#Passion_Section {
+	background-color: #384b5f;
+	padding-top: 10vh;
+	height: 100vh;
+}
+#passion_heading {
+	color: rgb(224, 207, 177);
+}
+.passion_bio_text {
+	font-size: 200%;
+	font-family: 'Poiret One', cursive;
+	height: auto;
+}
+.svg_bio {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	z-index: 2;
+}
+#fc128632-8bb2-491c-83fe-dc3898cfdda9 {
+	height: 100px;
+}
+
+@media (min-width: 544px) {
+	#fc128632-8bb2-491c-83fe-dc3898cfdda9 {
+		height: 150px;
+	}
+}
+@media (min-width: 768px) {
+	#fc128632-8bb2-491c-83fe-dc3898cfdda9 {
+		height: 250px;
+	}
+}
+@media (min-width: 992px) {
+	#fc128632-8bb2-491c-83fe-dc3898cfdda9 {
+		height: 300px;
+	}
+}
+@media (min-width: 1200px) {
+	#fc128632-8bb2-491c-83fe-dc3898cfdda9 {
+		height: 340px;
+	}
+}
