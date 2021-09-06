@@ -1,5 +1,17 @@
+<<<<<<< HEAD:style/css/Navbar.css
 .navbar {
 	z-index: 5;
+=======
+* {
+	margin: 0px;
+}
+header {
+	z-index: 5;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: absolute;
+>>>>>>> 8a8ad356972b236dd4df7d19c53c8f5b7522ab42:style/nav_bar.css
 	width: 100vw;
 	background-color: rgba(0, 0, 0, 0.849);
 	position: fixed;
