@@ -31,7 +31,6 @@
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 	transition: transform 0.3s ease-in-out;
-	cursor: pointer;
 	-webkit-filter: grayscale(90%);
 	filter: grayscale(90%) blur(2px) brightness(0.25);
 	background: rgba(0, 0, 0, 0.6);
